@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Archivo", sans-serif;
+}
+/*  globais */
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  background: #dcf3d3;
+}
+.container {
+    display: flex;
+  
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem;
+    gap: 50px;
+  }
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #348f37;
+}
+
+header .header-logo img {
+  width: 6rem;
+  height: 6rem;
+}
+
+header .header-navbar nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  gap: 2rem;
+}
+header .header-navbar nav ul a:hover {
+  color: #5ccb5f;
+}
+
+header .header-navbar button {
+  background-color: #cad4ca;
+  padding: 1rem;
+  color: #348f37;
+}
+header .header-navbar button:hover {
+  opacity: 0.6;
+  transition: all 5s transform;
+  color: #000000;
+}
+
+/*Body*/
+main {
+width: 100%;
+height: 100%;
+padding: 9rem;
+  background-color: #83db86;
+}
+.section--informations {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+    justify-content: space-evenly;
+}
+.info {
+  width: 600px;
+}
+.info h1 {
+  font-size: 3.5rem;
+}
+.info h2 {
+  color: white;
+  font-size: 1.5rem;
+}
+.info h2 strong {
+  color: #0dc70d;
+}
+
+
+.information {
+  padding: 3rem;
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: #fff;
+  justify-content: center;
+}
+.information button {
+  margin-top: 2rem;
+  background-color: #1ccc1c;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.information h1 {
+  font-size: 3rem;
+}
+
+/* section services */
+.services {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.services h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.diferenciais {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.care,
+.bonus,
+.specials,
+.card1,
+.card2,
+.card3 {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.depoimentos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.depoimento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
