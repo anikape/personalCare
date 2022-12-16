@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background: #dbead5;
+  }
+
+header img{
+
+    width: 6rem;
+    height: 6rem;
+
+}
+
+header{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 9vh;
+
+}
+
+header nav ul{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+header a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*Body*/
+
+.info{
+
+    gap: 2rem;
+    width: 50%;
+   
+
+}
+
+.sectionOne{
+
+    margin: 7rem;
+    display: flex;
+    gap:15rem;
+    padding: 5rem;
+    background-color: #5ccb5f;
+   
+
+}
+
+.sectionOne #indent{
+    text-indent: 2rem;
+    list-style-type: none;
+}
+
+.information{
+
+    display: flex;
+    flex-direction: column;
+    padding: 2rem; 
+    background-color: #fff;
+    justify-content: center;
+
+
+}
+
+.information h1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+
+gap: 5rem;
+border: 1px solid transparent;
+background-color: #d0fdd7;
+border-radius: 5%;
+align-items: center;
+justify-content: center;
+color: black;
+
+
+}
+
+.information a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.services{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.services h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    margin: 5rem;
+    gap:5rem;
+}
+
+
+.diferenciais{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.care, .bonus, .specials, .card1, .card2, .card3 {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.depoimentos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    
+}
+
+.depoimento{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+
+}
