@@ -19,6 +19,10 @@ https://github.com/anikape/personalCare.git
   git push origin "sua branch" (envia para o repositório"
   
   Clica em Pull Resquest e abra o PR para aprovação
+  
+ ## Acesse o projeto em:
+ 
+https://anikape.github.io/personalCare/
  
  ## Este projeto está sendo desenvolvido pela:
   
